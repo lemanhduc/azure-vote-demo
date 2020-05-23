@@ -4,7 +4,7 @@ trigger:
 variables:
   dockerRegistryServiceConnection: 'lemanhduc'
   imageRepository: 'azure-vote-front'
-  containerRegistry: 'csacr.azurecr.io'
+  containerRegistry: 'lemanhduc.azurecr.io'
   dockerfilePath: '**/Dockerfile'
   tag: '$(Build.BuildId)'
   imagePullSecret: 'csacr5d93-auth'
