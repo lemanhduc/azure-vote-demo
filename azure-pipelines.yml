@@ -2,7 +2,7 @@ trigger:
 - master
 
 variables:
-  dockerRegistryServiceConnection: 'CRSC'
+  dockerRegistryServiceConnection: 'lemanhduc'
   imageRepository: 'azure-vote-front'
   containerRegistry: 'csacr.azurecr.io'
   dockerfilePath: '**/Dockerfile'
